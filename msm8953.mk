@@ -139,8 +139,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.msm8953 \
-    libstdc++.vendor \
-    Snap
+    libstdc++.vendor
 
 # Crypto
 PRODUCT_PACKAGES += \
@@ -349,10 +348,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
-
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    Remove_Packages
 
 # RIL
 PRODUCT_PACKAGES += \
